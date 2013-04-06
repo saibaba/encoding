@@ -27,6 +27,5 @@ def run():
     httpd = HTTPServer(addr, Handler)
     httpd.serve_forever()
 
-
 if __name__ == "__main__":
 	run()
